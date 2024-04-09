@@ -1,0 +1,8 @@
+def get_player_input():
+  pass
+
+def switch_player(current_player):
+  pass
+
+def check_valid_move(current_board, column):
+  pass
