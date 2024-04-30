@@ -1,11 +1,9 @@
-def create_boards (board, cards, row, column): 
-    print("create_board function")
 
-def drop_piece (board, row, column, piece): 
+def drop_piece (board, column, piece): 
     board = piece 
 
-def print_board (board):
-    print ("place function") 
-
-def move (): 
-    print ("move function")
+def check_win(board):
+    for i in range(n_rows):
+        for j in range(n_cols-3):
+            if board[i][j] == board[i][j+1] and  board[i][j] == board[i][j+2] and  board[i][j] == board[i][j+3]:
+                return board[i][j]

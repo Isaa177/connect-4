@@ -27,3 +27,11 @@ def print_board (board):
 {board [5][0]} | {board [5][1]} | {board [5][2]} | {board [5][3]} | {board [5][4]} | {board [5][5]} | {board [5][6]} | {board [5][7]}
 """
     )
+def get_next_open_row(board, col):
+    for r in range (ROW_COUNT):
+        if board[r][col] == 0:
+            return r
+        
+
+def drop_piece(board, row, col, piece):
+    board[row][col] = piece

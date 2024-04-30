@@ -7,7 +7,7 @@ def create_new_board():
     
 def print_board(board):
     for row in board:
-    print (".join(map(str, row")
+        print (".join(map(str, row")
 
 def is_valid_location(board,col):
     return board[ROW_COUNT - 1][col]== 0
