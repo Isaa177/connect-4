@@ -28,8 +28,8 @@ def print_board (board):
 """
     )
 def get_next_open_row(board, col):
-    for r in range (ROW_COUNT):
-        if board[r][col] == 0:
+    for r in range (ROW_COUNT-1, -1, -1):
+        if board[r][col] == " ":
             return r
         
 
