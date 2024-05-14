@@ -1,4 +1,4 @@
-# Define constants
+#DEFINE CONSTANTS 
 ROW_COUNT = 6
 COLUMN_COUNT = 8
 
@@ -9,7 +9,7 @@ def create_new_board ():
             [" ", " ", " ", " ", " ", " "," ", " "], 
             [" ", " ", " ", " ", " ", " "," ", " "], 
             [" ", " ", " ", " ", " ", " "," ", " "]]
-
+#PRINTING BOARD GAME CONNECT 4 
     return board 
 def print_board (board): 
     print (

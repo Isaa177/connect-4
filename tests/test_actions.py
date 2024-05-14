@@ -1,6 +1,7 @@
 from connect_four.board import create_new_board
 from connect_four.actions import drop_piece
 
+#BOARD GAME 
 def test_drop_piece():
     board = create_new_board()
     drop_piece(board, 0, "X")
@@ -12,7 +13,7 @@ def test_drop_piece():
                     ['X','', '','','','','','']]
     
 
-
+#CHECK WIN VERTICAL 
 def test_check_win():
     board = [['','', '','','','','',''],
                     ['','', '','','','','',''],
